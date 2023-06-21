@@ -4,7 +4,7 @@ import sys
 all_args =sys.argv
 args = all_args[1:]
 
-first_value = int(args[0])
+first_value = float(args[0])
 second_value = int(args[1])
 
 if args[2] == "--addition":
