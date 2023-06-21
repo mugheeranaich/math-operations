@@ -24,6 +24,6 @@ elif args[2] == "--multiplication":
     print("Product is",multiplication)
 
 else:
-    raise Exception("Invalid operation\n valid operations are  [--addition,--subtraction,--division,--multiplication]")
+    os.("Invalid operation\n valid operations are  [--addition,--subtraction,--division,--multiplication]")
 
 
